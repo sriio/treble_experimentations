@@ -1,4 +1,4 @@
-FROM ubuntu:16.04
+FROM ubuntu:18.04
 MAINTAINER Pierre-Hugues Husson <phh@phh.me>
 
 ENV DEBIAN_FRONTEND noninteractive
@@ -12,6 +12,7 @@ RUN apt-get update && apt-get install -y \
 	openjdk-8-jdk \
 	python \
 	git \
+	git-lfs \
 	m4 \
 	unzip \
 	bison \
