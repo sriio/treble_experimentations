@@ -14,6 +14,7 @@ RUN apt-get update && apt-get install -y \
 	git \
 	git-lfs \
 	wget \
+	xmlstarlet \
 	m4 \
 	unzip \
 	bison \
