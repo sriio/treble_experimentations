@@ -13,6 +13,7 @@ RUN apt-get update && apt-get install -y \
 	python \
 	git \
 	git-lfs \
+	wget \
 	m4 \
 	unzip \
 	bison \
